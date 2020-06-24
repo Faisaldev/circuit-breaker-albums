@@ -1,6 +1,6 @@
-package com.aljazira.resilience.circuitbreakeralbums.controllers;
+package com.aljazira.circuitbreaker.albums.controllers;
 
-import com.aljazira.resilience.circuitbreakeralbums.services.AlbumService;
+import com.aljazira.circuitbreaker.albums.services.AlbumService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,4 +1,4 @@
-package com.aljazira.resilience.circuitbreakeralbums;
+package com.aljazira.circuitbreaker.albums;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

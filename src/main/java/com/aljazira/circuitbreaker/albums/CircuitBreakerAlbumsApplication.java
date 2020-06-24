@@ -1,9 +1,11 @@
-package com.aljazira.resilience.circuitbreakeralbums;
+package com.aljazira.circuitbreaker.albums;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 
 @SpringBootApplication
+@EnableCircuitBreaker
 public class CircuitBreakerAlbumsApplication {
 
     public static void main(String[] args) {
